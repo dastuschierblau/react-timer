@@ -1,0 +1,66 @@
+/* Main css file */
+
+body, div, ul, li, a, p, h1, h2, h3, h4, h5 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,
+      Ubuntu,Cantarell,Helvetica,Neue,sans-serif;
+	box-sizing: border-box;
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.container:nth-child(1) {
+	text-align: center;
+}
+
+.container > * {
+	padding: 20px;
+}
+
+.container-top {
+	min-height: 40vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.timer {
+	height: 10vh;
+}
+
+.container-bottom {
+	min-height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.btn-group {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+button {
+	border:none;
+	background-color: yellow;
+	height: 40px;
+	border-radius: 5px;
+	margin: 5px;
+	min-width: 70px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #222222;
+	color: yellow;
+}
